@@ -70,14 +70,20 @@
           <p class="formInfo">Coefficients go here<br>
 
             a = <input size="5" type="text" id="quadA" value="1"> <br>
-            b = <input size="5" type="text" id="linB" value="0"> <br>
-            c = <input size="5" type="text" id="constant" value="0"> <br>
+            b = <input size="5" type="text" id="linB" value="4"> <br>
+            c = <input size="5" type="text" id="constant" value="-5"> <br>
             <button class="btn" onclick="QF()">Submit Values</button>
           </p>
         </div>
         <div>
           <p id="solution1">x-int</p>
+          <p id="solution2">x-int</p>
+          <p id="vertex">x-int</p>
+          <p id="y-int">x-int</p>
+          <p id="corr">x-int</p>
           <button class="btn" onclick="zoIN()">+</button>
+          <button class="btn btn-primary btn-med" onclick="zoOUT()">-</button>
+          <button class= "btn btn-primary btn-med" onclick="resetCanvas()">clear</button>
         </div>
       </div>
       <div class="col-sm-8 text-left"> 
